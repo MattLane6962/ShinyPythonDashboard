@@ -1,0 +1,13 @@
+name: shiny-dashboard
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - shiny
+      - pandas
+      - matplotlib
+      - streamlit
+      - numpy
+      - plotly
